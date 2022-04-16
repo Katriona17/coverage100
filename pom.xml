@@ -84,11 +84,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-        </plugins>
-    </build>
-
-    <reporting>
-        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -108,15 +103,9 @@
                             <goal>check</goal>
                         </goals>
                     </execution>
-                    <execution>
-                    <id>check</id>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                    </execution>
                 </executions>
             </plugin>
         </plugins>
-    </reporting>
+    </build>
 
 </project>
